@@ -1,3 +1,3 @@
-# test-meteor-react-mysql
+# Yii2 Croppie editor widget
 
-Let's try to make basic meteor app integrated with mysql-react
+Croppie powered active form image editor
