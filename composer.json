@@ -1,8 +1,6 @@
 {
-    // package name
     "name": "soless/yii2-croppie-editor-widget",
 
-    // package type
     "type": "yii2-extension",
 
     "description": "Croppie powered active form image editor",
@@ -20,13 +18,11 @@
         }
     ],
 
-    // package dependencies
     "require": {
         "yiisoft/yii2": "~2.0.0",
         "bower-asset/croppie": ">=2.6.1"
     },
 
-    // class autoloading specs
     "autoload": {
         "psr-4": {
             "soless\\croppieEditor\\": "soless\croppie-editor"
