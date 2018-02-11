@@ -7,7 +7,7 @@ class CroppieEditorAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/soless/yii2-croppie-editor-widget'; 
     public $css = [ 
-        '',
+
     ];
     public $js = [
 	'assets/js/piexif.js',
