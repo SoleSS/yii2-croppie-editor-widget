@@ -1,0 +1,35 @@
+{
+    // package name
+    "name": "soless/yii2-croppie-editor-widget",
+
+    // package type
+    "type": "yii2-extension",
+
+    "description": "Croppie powered active form image editor",
+    "keywords": ["yii2", "croppie", "image", "helper", "active form", "image editor"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/SoleSS/yii2-croppie-editor-widget/issues",
+        "wiki": "https://github.com/SoleSS/yii2-croppie-editor-widget/wiki",
+        "source": "https://github.com/SoleSS/yii2-croppie-editor-widget"
+    },
+    "authors": [
+        {
+            "name": "Michael Nordheimer",
+            "email": "soless@info-tech.pro"
+        }
+    ],
+
+    // package dependencies
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "bower-asset/croppie": ">=2.6.1"
+    },
+
+    // class autoloading specs
+    "autoload": {
+        "psr-4": {
+            "soless\\croppieEditor\\": "soless\croppie-editor"
+        }
+    }
+}
