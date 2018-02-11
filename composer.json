@@ -25,7 +25,7 @@
 
     "autoload": {
         "psr-4": {
-            "soless\\croppieEditor\\": "soless\\croppie-editor"
+            "soless\\croppieeditor\\": ""
         }
     }
 }

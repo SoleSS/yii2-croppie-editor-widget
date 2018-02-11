@@ -1,16 +1,16 @@
 <?php
-namespace soless\croppieEditor;
+namespace soless\croppieeditor;
 
 use yii\web\AssetBundle;
 
 class CroppieEditorAsset extends AssetBundle 
 {
-    public $sourcePath = '@vendor/soless/croppie-editor'; 
+    public $sourcePath = '@vendor/soless/yii2-croppie-editor-widget'; 
     public $css = [ 
-        '@bower/croppie/croppie.css',
+        '@bower-asset/croppie/croppie.css',
     ];
     public $js = [
-	'@bower/croppie/croppie.min.js',
+	'@bower-asset/croppie/croppie.min.js',
 	'assets/js/piexif.js',
 	'assets/js/croppie-editor.js',
     ];
