@@ -5,7 +5,7 @@ use yii\web\AssetBundle;
 
 class CroppieAsset extends AssetBundle 
 {
-    public $sourcePath = '@bower-asset/croppie'; 
+    public $sourcePath = '@bower/croppie'; 
     public $css = [ 
         'croppie.css',
     ];
