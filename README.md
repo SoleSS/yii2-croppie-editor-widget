@@ -12,3 +12,5 @@ Basic usage:
 	      'height' => 360,
     ]) ?>
 ```
+imageBlob - public model attribute
+image - model image url
