@@ -13,4 +13,5 @@ Basic usage:
     ]) ?>
 ```
 imageBlob - public model attribute
+
 image - model image url
