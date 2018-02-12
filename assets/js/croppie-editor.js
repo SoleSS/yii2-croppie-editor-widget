@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     function saveCroppie($target, format) {
 	$target.croppie('result', {type: 'base64', format: format}).then(function(result) {
-	    $target.parent().parent().parent().find('input.blob').val( result );
+	    $target.parent().parent().parent().parent().find('input.blob').val( result );
 
 	    destroyCroppie($target);
 	    updateCroppie($target, result);
